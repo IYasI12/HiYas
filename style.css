@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree Serif:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+   
+}
+
+body  {
+    position: relative;
+    background: #E8DDBE ;
+    font-family: Righteous;
+   height:-100px;
+    right: -90px;
+    background-repeat: repeat-y;
+    background-size: 20rem;
+    bottom: 20px;
+
+}
+
+.logo span {
+    font-size: 65pt;
+    font-weight: bold;
+    position: relative;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+  .logo span::before {
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+  }
+  .logo span::after {
+    content: var(--l);
+    position: absolute;
+    height: 200%;
+    width: 300px;
+    top: 80%;
+    left: 0;
+    filter: blur(30px);
+    transform: rotateX(50deg);
+  }
+  .logo span:hover {
+    filter: contrast(250%);
+  }
+  .logo span:nth-child(1) {
+    color: #E9BFB9 ;
+  }
+  .logo span:nth-child(2) {
+    color: #E9BFB9 ;
+  }
+  .logo span:nth-child(3) {
+    color: #E9BFB9 ;
+  }
+  .logo span:nth-child(4) {
+    color: #E9BFB9 ;
+  }
+  .logo span:nth-child(5) {
+    color: #E9BFB9 ;
+  }
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 700px;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+    height: 85px;}
+
+    .logo {font-size: 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700px;
+    bottom:-20px;
+    position: relative;}
+
+    
+
+    .nav a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    text-decoration: none;
+    background-color: transparent;
+    bottom: -100;
+    position: relative;
+}
+
+   
+       
+
+   
+
+   
+
+    .nav a:hover
+    {
+        color:black;
+    }
+
+.sobre h1{
+    bottom: -70px;
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre h2{
+    bottom: -80px;
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre h3{
+    bottom: -90px;
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre h4{
+    bottom: -100px;
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre h5{
+    bottom: -110px;
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sobre h6{
+    bottom: -120px;
+    position: relative;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.bienvenida {
+    bottom: -100px;
+    position: relative;
+    right: -100px;
+    font-size: 30px;
+    font-family: Dancing Script;
+
+}
+
+*{margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .contenedor figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 250px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+        bottom: 250px;
+        right: -100px;
+    }
+    .contenedor figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .contenedor figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,103,123,0.7);
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .contenedor figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+    
+    
+
+    *{margin: 0;padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;}
+        
+        .contenedor3{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .contenedor3 figure{
+           position:relative;
+            height: 250px;
+            cursor: pointer;
+            width: 250px;
+            overflow: hidden;
+            border-radius: 6px;
+            box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+            bottom: 700px;
+            right: -200px;
+        }
+        .contenedor3 figure img{
+            width: 100%;
+            height: 100%;
+            transition: all 400ms ease-out;
+            will-change: transform;
+        }
+        .contenedor3 figure .capa{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,103,123,0.7);
+            transition: all 400ms ease-out;
+            opacity: 0;
+            visibility: hidden;
+           text-align: center;
+        }
+        .contenedor3 figure:hover > .capa {
+            opacity: 1;
+            visibility: visible;
+        }
+        .contenedor3 figure:hover > .capa h3{
+            margin-top: 70px;
+            margin-bottom: 15px;
+        }
+        .contenedor3 figure:hover > img{
+            transform: scale(1.3);
+        }
+        .contenedor3 figure .capa h3{
+            color: #fff;
+            font-weight: 400;
+            margin-bottom: 120px;
+            transition: all 400ms ease-out;
+             margin-top: 30px;
+        }
+        .contenedor3 figure .capa p{
+            color: #fff;
+            font-size: 15px;
+            line-height: 1.5;
+            width: 100%;
+            max-width: 220px;
+            margin: auto;
+        }
+        
+        *{margin: 0;padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;}
+            
+            .contenedor1{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .contenedor1 figure{
+               position:relative;
+                height: 250px;
+                cursor: pointer;
+                width: 250px;
+                overflow: hidden;
+                border-radius: 6px;
+                box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+                bottom: 1500px;
+                right: -410px;
+            }
+            .contenedor1 figure img{
+                width: 100%;
+                height: 100%;
+                transition: all 400ms ease-out;
+                will-change: transform;
+            }
+            .contenedor1 figure .capa{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,103,123,0.7);
+                transition: all 400ms ease-out;
+                opacity: 0;
+                visibility: hidden;
+               text-align: center;
+            }
+            .contenedor1 figure:hover > .capa {
+                opacity: 1;
+                visibility: visible;
+            }
+            .contenedor1 figure:hover > .capa h3{
+                margin-top: 70px;
+                margin-bottom: 15px;
+            }
+            .contenedor1 figure:hover > img{
+                transform: scale(1.3);
+            }
+            .contenedor1 figure .capa h3{
+                color: #fff;
+                font-weight: 400;
+                margin-bottom: 120px;
+                transition: all 400ms ease-out;
+                 margin-top: 30px;
+            }
+            .contenedor1 figure .capa p{
+                color: #fff;
+                font-size: 15px;
+                line-height: 1.5;
+                width: 100%;
+                max-width: 220px;
+                margin: auto;
+            }
+            
+            .sobre p{
+                font-size:  10px;
+                justify-content: center;         
+            }
+                
+            *{margin: 0;padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;}
+                
+                .invitacion{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                }
+                .invitacion figure{
+                   position:relative;
+                    height: 300px;
+                    cursor: pointer;
+                    width: 300px;
+                    overflow: hidden;
+                    border-radius: 20px;
+                    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+                    bottom: 150px;
+                    right: -200px;
+                }
+                .invitacion figure img{
+                    width: 100%;
+                    height: 100%;
+                    transition: all 400ms ease-out;
+                    will-change: transform;
+                }
+                .invitacion figure .capa{
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0,103,123,0.7);
+                    transition: all 400ms ease-out;
+                    opacity: 0;
+                    visibility: hidden;
+                   text-align: center;
+                }
+                .invitacion figure:hover > .capa {
+                    opacity: 1;
+                    visibility: visible;
+                }
+                .invitacion figure:hover > .capa h3{
+                    margin-top: 70px;
+                    margin-bottom: 15px;
+                }
+                .invitacion figure:hover > img{
+                    transform: scale(1.3);
+                }
+                .invitacion figure .capa h3{
+                    color: #fff;
+                    font-weight: 400;
+                    margin-bottom: 120px;
+                    transition: all 400ms ease-out;
+                     margin-top: 30px;
+                }
+                .invitacion figure .capa p{
+                    color: #fff;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    width: 100%;
+                    max-width: 220px;
+                    margin: auto;
+                }
+                
+       
+.marco {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    right: 100px;
+    bottom: -150px;
+}
+
+.marco2 {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    right: 90px;
+    bottom: -300px;
+}
+.bienvenida a {
+    position: relative;
+    right: 120px;
+    bottom: -80px;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.bienvenida2 a {
+    position: relative;
+    right: 50px;
+    bottom: -300px;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+.slider-frame {
+	width: 400px;
+    height: 400px;
+	margin:50px auto 0;
+	overflow: hidden;
+    position: relative;
+    bottom: 2200px;
+    right: 470px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.slider-frame ul {
+	display:flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 15s infinite alternate ease-in-out;
+    
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.ejemplo{
+    position: relative;
+    bottom: 2000px;
+    right: 60px;
+    width: 50%;
+    height: 50%;
+
+}
+
+.directo h1{
+    position: relative;
+    right: -650px;
+    bottom: -200px;
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
